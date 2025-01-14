@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Load the dataset
-data = pd.read_csv(r"C:\Users\keval\Downloads\data_synthetic.csv")
+data = pd.read_csv("data_synthetic.csv")
 
 # Streamlit App Configuration
 st.title("IoT Risk Monitoring and Insights")
